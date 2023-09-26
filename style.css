@@ -1,0 +1,246 @@
+.nav1 li{/*mise en forme de la barre de navigation avec la propriété display flex*/
+    display: inline-block;
+    padding: 10px;
+   
+    font-size: x-large;
+}
+nav{
+    height: 120px;
+}
+.bkl{/*le premeier bloc se positionne au milieu et le texte au centre*/
+    margin-left: 40%;
+    text-align: center;
+    width: 300px;
+    border-radius: 10px;
+}
+.bkl1{/*le logo de bakeli avec sa couleur de fond et sa mise es forme*/
+    background: #fff;
+    border-radius: 40px;
+    height: 130px;
+    width: 190px;
+    margin-top: 50px;
+}
+.bkl p{/*le texte sous le logo de bakeli */
+    padding: 20px;
+    background: rgb(116, 112, 112);
+    color: #fff;
+    font-size: larger;
+}
+.bkl h5{
+    color: #fff;
+}
+.bloc1{/*la mise en forme du bloc avec son image de fond et ses ajustements*/
+    background-image: url(fond1.avif);
+    height: 500px;
+    border-bottom: 5px solid rgb(134, 133, 133);
+}
+.bloc2{/*emplacement correct*/
+    text-align: center;
+    display: flex;
+    margin: 80px;
+    gap: 5px;
+}
+.bande-bkl{/*ceci concerne l'espace ou est ecrit sur deux lignes spécialisations*/
+    text-align: center;
+    background-color: rgb(141, 201, 201);
+    height: 200px;
+    padding: 20px;
+    font-size: larger;
+}
+.bande-bkl ul{/*utilisation de display pour l'allignement*/
+    display: inline-block;
+}
+.icon img{/*redimensionnement des icones*/
+    width: 100px;
+    height: 100px;
+}
+.icon{/*utilisation de display grid pour une meilleure mies en forme simple et adéquate*/
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+/*les mises en formes particuliere pour chaque case*/
+.wordpress{
+    background-color: rgb(132, 212, 212);
+    padding:115px;
+}
+.htmlcss{
+    background-color: bisque;
+    padding:115px;
+}
+.canva{
+    background-color: rgb(203, 180, 224);
+    padding: 115px;
+}
+.js{
+    background-color: rgb(103, 95, 110);
+    padding: 115px;
+}
+.java{
+    background-color: rgb(248, 240, 133);
+    padding: 115px;
+}
+.inkscape{
+    background-color: rgb(206, 237, 247);
+    padding: 115px;
+}
+.Ae{
+    background-color: rgb(35, 15, 53);
+    padding: 115px;
+}
+.python{
+    background-color: rgb(131, 236, 187);
+    padding: 115px;
+} 
+.bloc3 .bakeli {
+    text-align: center;
+    font-size:3em;
+    margin-top: 50px;
+}
+.pbkl{
+    text-align: center;
+    margin: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.bloc .bloc-bar{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    margin-top: 80px;
+    gap: 60px;
+}
+.bloc3 .bloc-bar{
+    flex-basis: 46%;
+}
+.subject{
+    font-size: 1em;
+    font-weight: bold;
+    margin: 15px;
+}
+.progress-bar{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background-color: rgb(194, 199, 201);
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.col{
+    width: 25%;
+}
+.progress-bar::after{
+    position: absolute;
+    content: attr(value);
+    top: -35px;
+    right: 0;
+    font-size: 18px;
+}
+.progress-line{
+    position: absolute;
+    width: 100%;
+    height: 9px;
+    background-color:rgb(77, 151, 175) ;
+    border-radius: 20px;
+}
+#none{
+    color: #fff;
+}
+.test{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border:  3px solid rgb(80, 136, 114);
+    border-radius: 50%;
+    margin-left: 100px;
+}
+.test img{
+    width: 60px;
+}
+.bloc4{
+    background-color: rgb(153, 179, 197);
+    padding-bottom: 100px;
+}
+.bloc4 .text{
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+.text h2{
+    font-size: 2em;
+    text-transform: uppercase;
+    color: #fff;
+}
+.text p{
+    color: #fff;
+}
+.prsn{
+    display: flex;
+    margin: 50px;
+    gap: 20px;
+}
+.bloc4 .prsn .team img{
+    width: 300px;
+    height: 350px;
+}
+.team{
+    position: relative;
+}
+.team .txt{
+    position: absolute;
+
+    text-align: center;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    background: #fff;
+    top:350px;
+    height: 70px;
+    font-size: 1.3em;
+}
+.team span{
+    font-weight: bold;
+}
+.bloc5{
+    text-align: center;
+    padding: 100px;
+}
+.bloc5 img{
+    width: 100px;
+}
+.bloc5 h3{
+    padding: 50px;
+}
+.bloc6{
+    background-color: rgb(157, 235, 235);
+    text-align: center;
+    padding: 50px;
+}
+.bloc6 .infos{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+}
+.bloc6 h3{
+    font-size: 1.3em;
+}
+.bloc6 p{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.bloc6 .cop{
+    font-weight: normal;
+    padding-top: 50px;
+}
+@media screen and (max-width:768px){
+    nav{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
